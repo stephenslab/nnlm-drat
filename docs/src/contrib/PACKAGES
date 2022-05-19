@@ -1,8 +1,9 @@
-Package: drat
-Version: 0.1.8
-Depends: R (>= 3.2.0)
-Imports: utils
-Suggests: git2r, knitr, rmarkdown
-License: GPL (>= 2)
-MD5sum: 2e7107c8bc567c3e7d1aedbd7aaeb396
-NeedsCompilation: no
+Package: NNLM
+Version: 0.4.4
+Depends: R (>= 3.5.0)
+Imports: Rcpp (>= 0.11.0), stats, utils
+LinkingTo: Rcpp, RcppArmadillo, RcppProgress
+Suggests: testthat, knitr, rmarkdown, mice, missForest, ISOpureR
+License: BSD_2_clause + file LICENSE
+MD5sum: cf4c54a94bc0a21334b17a7929db36d6
+NeedsCompilation: yes
